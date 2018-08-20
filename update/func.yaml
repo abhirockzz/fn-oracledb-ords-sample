@@ -1,0 +1,8 @@
+name: fn-ords-app-update-func
+version: 0.0.1
+runtime: java
+cmd: io.fnproject.example.UpdateEmployeeFunction::handle
+format: http
+path: /update
+config:
+  ORDS_REST_SERVICE_ENDPOINT: https://129.150.196.175/ords/pdb1/rest-workspace/hr/

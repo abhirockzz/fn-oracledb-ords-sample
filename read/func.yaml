@@ -1,0 +1,8 @@
+name: fn-ords-app-read-func
+version: 0.0.1
+runtime: java
+cmd: io.fnproject.example.GetEmployeeFunction::handle
+format: http
+path: /read
+config:
+  ORDS_REST_SERVICE_ENDPOINT: https://129.150.196.175/ords/pdb1/rest-workspace/hr/
